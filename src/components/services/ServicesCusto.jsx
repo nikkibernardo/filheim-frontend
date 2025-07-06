@@ -14,7 +14,7 @@ function ServicesCusto() {
                 Design and Customization
               </h1>
               <p className="text-lg max-w-2xl mx-auto">
-                Handcrafted storage solutions designed exclusively for your space and lifestyle.
+                aaaaaaaaaaaaaa
               </p>
             </div>
           </div>
