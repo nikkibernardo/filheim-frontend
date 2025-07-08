@@ -19,6 +19,7 @@ function AboutPage() {
         <AboutHero />
       </div>
       <AboutStory />
+
     </div>
   );
 }

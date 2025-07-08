@@ -21,7 +21,11 @@ function ServicesFAQ() {
     {
       question: "Is there a waiting period for insurance claims?",
       answer: "There may be a waiting period for certain insurance claims, depending on the policy terms and conditions. Please refer to your policy documents for details."
-    }
+    },
+    {
+      question: "How secure is my insurance information?",
+      answer: "We prioritize the security of your insurance information. We use advanced encryption and strict data protection measures to ensure your data is safe and confidential."
+    },
   ];
 
   return (

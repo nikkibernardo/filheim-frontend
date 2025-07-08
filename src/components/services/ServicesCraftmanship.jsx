@@ -19,7 +19,7 @@ function ServicesCraftmanship() {
 
               <div className="flex flex-col">
                 <div>
-                  <p className="text-lg text-[#9A7842] text-left">----</p>
+                  <p className="text-lg text-[#9A7842] text-left">How we work</p>
                   <h1 
                     className="text-4xl font-bold text-left mb-2"
                     style={{ fontFamily: "'Times New Roman', Times, serif" }}

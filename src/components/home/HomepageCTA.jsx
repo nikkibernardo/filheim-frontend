@@ -2,7 +2,7 @@ import React from "react";
 
 function HomepageCTA() {
   return (
-    <section id="home-cta" className="pt-6 pb-12">
+    <section id="home-cta" className="pt-6">
       <div className="flex justify-center items-center text-center">
         <div className="w-full">
           <div className="space-y-6">

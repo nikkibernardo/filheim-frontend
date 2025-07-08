@@ -6,13 +6,13 @@ import { AiFillInstagram } from "react-icons/ai";
 
 function Footer() { 
   return (
-    <footer>
-      <div>
-        <div className="bg-white text-white  px-4 pt-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <footer className="bg-gray-100">
+      <div >
+        <div className=" text-white pt-10 px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div className="grid gap-2 row-gap-2 mb-12 sm:grid-cols-2 lg:grid-cols-5">
             <div className="sm:col-span-2 mb-5">
               <a href="/" aria-label="Go home" title="Company" className="inline-flex items-center">
-                <span className="text-xl font-bold tracking-wide text-gray-800 uppercase">FILHEIM</span>
+                <span className="text-2xl font-bold tracking-wide text-gray-800 uppercase">FILHEIM</span>
               </a>
               <div className="mt-2 lg:max-w-sm">
                 <p className="text-sm text-gray-800">

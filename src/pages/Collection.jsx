@@ -19,6 +19,7 @@ function CollectionPage() {
         <Navbar />
         <CollectionHero />
       </div>
+      
       <CollectionCabinets />
       <CollectionCountertops />
       <div className="bg-white py-32"></div>

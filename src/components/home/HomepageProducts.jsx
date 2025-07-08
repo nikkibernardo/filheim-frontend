@@ -76,19 +76,23 @@ function HomepageProducts() {
     <section
       id="home-products"
       className="py-20"
+      style={{
+        backgroundColor: '#EEEEEE',
+        minHeight: '500px',
+      }}
     >
       <div className="flex justify-center items-center text-center">
         <div className="w-full max-w-screen-xl px-4">
           <div className="space-y-6">
             <div className=" items-center">
-              {/* <p className="text-lg text-[#9A7842] mb-1 text-left">----</p> */}
               <h1 
                 className="text-4xl font-bold text-left"
                 style={{ fontFamily: "'Times New Roman', Times, serif" }}
               >
                 Featured Products & Projects
               </h1>
-              <div className="flex flex-row justify-between items-center mb-6">
+              {/* <div className="flex flex-row md:flex-col justify-between items-center mb-6"> */}
+              <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4 md:gap-0">
                 <p className="text-lg max-w-2xl">
                     Custom designs realized through collaborative vision and meticulous craftsmanship.
                   </p>
@@ -103,8 +107,8 @@ function HomepageProducts() {
                       className={`${
                         activeFilter === category
                           ? 'text-white bg-[#9A7842] border-[#9A7842]'
-                          : 'text-gray-700 bg-white border-gray-200 hover:text-[#9A7842] hover:border-[#9A7842]/30'
-                      } border rounded-full text-base font-medium px-5 py-2.5 transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-[#9A7842]/30`}
+                          : 'text-gray-900 bg-white border-gray-200 hover:text-[#9A7842] hover:border-[#9A7842]/30'
+                      } border rounded-sm text-base font-medium px-5 py-2.5 transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-[#9A7842]/30`}
                     >
                       {category}
                     </button>

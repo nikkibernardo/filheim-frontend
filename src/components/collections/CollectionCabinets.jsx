@@ -103,7 +103,7 @@ function CollectionCabinets() {
                     activeFilter === category
                       ? 'text-white bg-[#9A7842] border-[#9A7842]'
                       : 'text-gray-700 bg-white border-gray-200 hover:text-[#9A7842] hover:border-[#9A7842]/30'
-                  } border rounded-full text-base font-medium px-5 py-2.5 transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-[#9A7842]/30`}
+                  } border rounded-sm text-base font-medium px-5 py-2.5 transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-[#9A7842]/30`}
                 >
                   {category}
                 </button>
@@ -123,7 +123,7 @@ function CollectionCabinets() {
                     className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
-                  <div className="absolute bottom-4 left-4 text-white transition-opacity duration-300 uppercase">
+                  <div className="absolute bottom-4 left-4 text-white font-semibold transition-opacity duration-300 uppercase">
                     {item.title}
                   </div>
                   <div className="absolute top-4 right-4">

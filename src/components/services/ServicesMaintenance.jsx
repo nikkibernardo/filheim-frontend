@@ -6,7 +6,6 @@ function ServicesMaintenance() {
   return (
     <section 
       id="collection-cabinets" 
-      // className="py-24"
       className="relative py-16"
       style={{
         backgroundColor: '#9A7842',
@@ -19,20 +18,23 @@ function ServicesMaintenance() {
             <div className="flex flex-col items-center">
 
               <div className="grid md:grid-cols-4 gap-4">
-                <div className="max-w-sm text-left text-white">
+                {/* <div className="max-w-sm text-left text-white"> */}
+                <div className="max-w-sm text-left text-white flex flex-col justify-center pb-0 lg:pb-10">  
+                   <p className="text-lg text-gray-900 text-left">Lorem ipsum</p>
                   <h1 
-                    className="text-4xl font-bold mb-2"
+                    className="text-4xl font-bold mb-2 relative pb-5"
                     style={{ fontFamily: "'Times New Roman', Times, serif" }}
                   >
                     Aftercare and Maintenance
+                    <span className="absolute bottom-0 left-0 w-1/2 h-px bg-white"></span>
                   </h1>
-                  <p className="text-lg max-w-2xl mx-auto mb-4">
+                  {/* <p className="text-lg max-w-2xl mx-auto mb-4">
                     Preserve your cabinetry with simple care: dust regularly, use mild cleaners, and avoid abrasives. We offer free adjustments for 5 years to keep everything functioning perfectly.
-                  </p>
-                  <button className="flex flex-row gap-2 items-center bg-gray-900/90 text-white uppercase text-sm p-2 px-4 font-regular hover:bg-gray-900 transition-colors duration-200 hover:font-medium">
+                  </p> */}
+                  {/* <button className="flex flex-row gap-2 items-center bg-gray-900/90 text-white uppercase text-sm p-2 px-4 font-regular hover:bg-gray-900 transition-colors duration-200 hover:font-medium">
                     Read More
                     <IoArrowForward />
-                  </button>
+                  </button> */}
                 </div>
 
                 {/* Card 1 */}
