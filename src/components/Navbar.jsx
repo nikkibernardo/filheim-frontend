@@ -41,12 +41,13 @@ function Navbar() {
           </span>
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button
-            type="button"
-            className="text-white bg-white/10 hover:bg-white/20 focus:ring-4 focus:outline-none focus:ring-white/30 font-semibold rounded-sm text-sm px-4 py-2 text-center dark:bg-white/10 dark:hover:bg-white/20 dark:focus:ring-white/30 border border-white"
-          >
-            CONTACT US
-          </button>
+          <Link
+  to="/contact"
+  className="text-white bg-white/10 hover:bg-white/20 focus:ring-4 focus:outline-none focus:ring-white/30 font-semibold rounded-sm text-sm px-4 py-2 text-center border border-white transition duration-200"
+>
+  CONTACT US
+</Link>
+
           <button
             data-collapse-toggle="navbar-cta"
             type="button"
