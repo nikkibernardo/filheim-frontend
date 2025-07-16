@@ -23,10 +23,10 @@ function ServicesMaintenance() {
                    <p className="text-lg text-gray-900 text-left">Lorem ipsum</p>
                   <h1 
                     className="text-4xl font-bold mb-2 relative pb-5"
-                    style={{ fontFamily: "'Times New Roman', Times, serif" }}
+                    style={{ fontFamily: "'Playfair Display', serif" }}
                   >
                     Aftercare and Maintenance
-                    <span className="absolute bottom-0 left-0 w-1/2 h-px bg-white"></span>
+                    <span className="absolute bottom-0 left-0 w-1/2 h-px bg-gray-900"></span>
                   </h1>
                   {/* <p className="text-lg max-w-2xl mx-auto mb-4">
                     Preserve your cabinetry with simple care: dust regularly, use mild cleaners, and avoid abrasives. We offer free adjustments for 5 years to keep everything functioning perfectly.
@@ -44,7 +44,7 @@ function ServicesMaintenance() {
                   </a>
                   <div className="p-5 text-left">
                     <a href="#">
-                      <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white" style={{ fontFamily: "'Inter', sans-serif" }}>
                         Aftercare / Maintenance 1
                       </h5>
                     </a>
@@ -61,7 +61,7 @@ function ServicesMaintenance() {
                   </a>
                   <div className="p-5 text-left">
                     <a href="#">
-                      <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white" style={{ fontFamily: "'Inter', sans-serif" }}>
                         Aftercare / Maintenance 2
                       </h5>
                     </a>
@@ -78,7 +78,7 @@ function ServicesMaintenance() {
                   </a>
                   <div className="p-5 text-left">
                     <a href="#">
-                      <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white" style={{ fontFamily: "'Inter', sans-serif" }}>
                         Aftercare / Maintenance 3
                       </h5>
                     </a>

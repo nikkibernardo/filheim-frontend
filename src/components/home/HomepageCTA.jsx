@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function HomepageCTA() {
   return (
@@ -8,29 +9,27 @@ function HomepageCTA() {
           <div className="space-y-6">
             <div className="bg-gray-900 rounded-sm shadow-lg py-4">
               <div className="mx-auto px-4 py-10 sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-8 items-center">
-                <h2 className="mb-2 text-4xl font-bold tracking-tight text-white sm:text-4xl"  style={{ fontFamily: "'Times New Roman', Times, serif" }}>
+                <h2 
+                  className="mb-2 text-4xl font-bold tracking-tight text-white sm:text-4xl"  
+                  style={{ fontFamily: "'Inter', sans-serif" }}
+                >
                   Get your Dream Cabinetry into Reality
                 </h2>
                     
-                <p className="text-white md:text-lg">
+                <p className="text-white/80 md:text-lg" style={{ fontFamily: "'Inter', sans-serif" }}>
                   Ready to transform your space? Schedule a free consultation with our design experts <br />today and let's bring your vision to life.
                 </p>
                 
                 <div className="flex justify-center items-center mt-5">
-                <form className="flex flex-col gap-2 sm:flex-row max-w-screen-md w-full">
-                  <input  
-                    placeholder="Enter your email"
-                    required
-                    type="email"
-                    className="flex-grow h-12 px-4 w-full text-white transition duration-200 border-2 border-transparent rounded-sm bg-gray-700"
-                  />
-                  <button className="h-12 px-6 font-semibold text-gray-200 transition duration-200 shadow-md hover:text-white bg-[#9A7842] hover:bg-[#7a5f34]">Submit</button>
-                  {/* <button
-                    className="h-12 px-8 font-semibold text-gray-200 transition duration-200 shadow-md hover:text-white bg-[#9A7842] hover:bg-[#7a5f34]"
-                  >
-                    Contact Us
-                  </button> */}
-                </form>
+                  <div className="flex justify-center">
+                    <Link 
+                      to="/contact" 
+                      className="flex h-12 px-6 font-semibold text-gray-200 shadow-md hover:text-white bg-[#9A7842] hover:bg-[#7a5f34] items-center justify-center hover:scale-105 transition-transform duration-300 uppercase"
+                      style={{ fontFamily: "'Inter', sans-serif" }}
+                    >
+                      Book Your Appointment
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>

@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar";
 import bgImg from '../assets/bg.png';
 import HomepageCTA from "../components/home/HomepageCTA";
 import HomepagePruducts from "../components/home/HomepageProducts";
+import HomepageIntro2 from "../components/home/HomepageIntro2";
+import HomepageOtherLayout from "../components/home/HomepageOtherLayout";
 
 export const Home = () => {
 
@@ -12,18 +14,22 @@ export const Home = () => {
     <div>
       <div
         style={{
-          backgroundImage: `url(${bgImg})`,
+          // backgroundImage: `url(${bgImg})`,
+          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(${bgImg})`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           minHeight: '700px',
         }}
       >
-        <Navbar />
+        <div className="absolute top-0 left-0 w-full z-50 text-white"><Navbar /></div>
         <HomepageS1 />
       </div>
+
       <HomepageS2 />
+      <HomepageIntro2 />
       <HomepagePruducts />
+      <HomepageOtherLayout />
       <HomepageCTA />
     </div>
   );

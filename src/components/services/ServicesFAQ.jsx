@@ -11,20 +11,24 @@ function ServicesFAQ() {
 
   const faqs = [
     {
-      question: "How secure is my insurance information?",
-      answer: "We prioritize the security of your insurance information. We use advanced encryption and strict data protection measures to ensure your data is safe and confidential."
+      question: "What makes Filheim different from other cabinetry brands?",
+      answer: "Filheim combines the craftsmanship of Filipino artisans with premium, bespoke designs. Unlike mass-produced or imported brands, each piece is meticulously crafted to reflect personal style and local sophistication—luxury that’s authentically homegrown."
     },
     {
-      question: "How can I customize my insurance coverage?",
-      answer: "Our insurance plans are customizable. You can tailor your coverage to meet your specific needs and budget."
+      question: "Can Filheim Cabinets be customized to fit unique spaces?",
+      answer: "Absolutely. Every Filheim creation is tailored to your space, preferences, and lifestyle. From material finishes to functional details, our designs are as unique as the homes they grace."
     },
     {
-      question: "Is there a waiting period for insurance claims?",
-      answer: "There may be a waiting period for certain insurance claims, depending on the policy terms and conditions. Please refer to your policy documents for details."
+      question: "How long does the production and installation process take?",
+      answer: "Timelines vary based on design complexity, but we prioritize precision over speed. Clients receive a detailed schedule after consultation, ensuring transparency from sketch to installation."
     },
     {
-      question: "How secure is my insurance information?",
-      answer: "We prioritize the security of your insurance information. We use advanced encryption and strict data protection measures to ensure your data is safe and confidential."
+      question: "Why choose locally made cabinetry over imported European brands?",
+      answer: "Filheim proves that local craftsmanship can rival global luxury—offering the same premium quality with a deeply personal touch. By choosing Filheim, you support Filipino artisans while enjoying faster turnaround times and sustainable sourcing."
+    },
+    {
+      question: "Do you offer sustainable material options?",
+      answer: "Yes. Sustainability is woven into our ethos. We work with responsibly sourced wood, low-VOC finishes, and eco-conscious practices to deliver beauty that respects both home and environment."
     },
   ];
 
@@ -36,10 +40,14 @@ function ServicesFAQ() {
             <div className="flex flex-col items-center">
                <div className="py-12 px-8 max-w-5xl mx-auto flex flex-col md:flex-row gap-12">
                 <div className="flex flex-col text-left basis-1/2">
-                  <p className="inline-block mb-2 text-lg text-[#9A7842]">Filheim FAQ</p>
-                  <p className="sm:text-4xl text-3xl font-extrabold text-base-content" style={{ fontFamily: "'Times New Roman', Times, serif" }}>Frequently Asked <br /> Questions</p>
+                  <p className="inline-block mb-2 text-lg text-[#b0984b]">Filheim FAQ</p>
+                  <p 
+                    className="sm:text-4xl text-3xl font-extrabold text-base-content" 
+                    style={{ fontFamily: "'Playfair Display', serif" }}
+                  >
+                    Frequently Asked <br /> Questions</p>
                 </div>
-                <ul className="basis-1/2">
+                <ul className="basis-1/2" style={{ fontFamily: "'Inter', sans-serif" }}>
                   {faqs.map((faq, index) => (
                     <li key={index}>
                       <button

@@ -13,14 +13,14 @@ function ServicesPage() {
     <div>
       <div
         style={{
-          backgroundImage: `url(${bgImg})`,
+          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(${bgImg})`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
-          minHeight: '350px',
+          minHeight: '370px',
         }}
       >
-        <Navbar />
+        <div className="absolute top-0 left-0 w-full z-50 text-white"><Navbar /></div>
         <ServicesHero />
       </div>
       <ServicesCusto />

@@ -83,17 +83,17 @@ function CollectionCabinets() {
             <div className="flex flex-col items-center">
               <h1 
                 className="text-4xl font-bold"
-                style={{ fontFamily: "'Times New Roman', Times, serif" }}
+                style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 Bespoke Cabinets
               </h1>
-              <p className="text-lg max-w-2xl mx-auto">
+              <p className="text-lg max-w-2xl mx-auto" style={{ fontFamily: "'Inter', sans-serif" }}>
                 Handcrafted storage solutions designed exclusively for your space and lifestyle.
               </p>
             </div>
 
             {/* Filter Buttons */}
-            <div className="flex justify-center flex-wrap gap-3">
+            <div className="flex justify-center flex-wrap gap-3" style={{ fontFamily: "'Inter', sans-serif" }}>
               {categories.map((category) => (
                 <button
                   key={category}
@@ -111,7 +111,7 @@ function CollectionCabinets() {
             </div>
 
             {/* Image Gallery Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3" style={{ fontFamily: "'Inter', sans-serif" }}>
               {filteredItems.map((item) => (
                 <div 
                   key={item.id} 
@@ -128,9 +128,9 @@ function CollectionCabinets() {
                   </div>
                   <div className="absolute top-4 right-4">
                     <button className="
-                      bg-white/90 text-[#9A7842] 
+                      bg-white/30 text-[#9A7842] 
                       p-2 rounded-full 
-                      hover:bg-white hover:shadow-md
+                      hover:bg-white/80 hover:shadow-md
                       transition-all duration-200
                       focus:outline-none focus:ring-2 focus:ring-[#9A7842]/50
                     ">

@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useAlert, useUser } from "../hooks/Hooks";
+import FilheimLogo from "../assets/FilheimLogoWhite.png";
 
 function Navbar() {
   const { dispatchAlert } = useAlert();
@@ -29,24 +30,20 @@ function Navbar() {
   return (
     <nav className="border-gray-200 dark:bg-gray-900 pt-5">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a 
-          href="/" 
+        <Link 
+          to="/" 
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <span 
-            className="self-center text-2xl font-semibold whitespace-nowrap text-white"
-            style={{ fontFamily: "'Times New Roman', Times, serif" }}
-          >
-            FILHEIM
-          </span>
-        </a>
+          <img src={FilheimLogo} alt="Filheim Logo" className="w-full h-6 object-cover group-hover:scale-105 transition-transform duration-300" />
+        </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <Link
-  to="/contact"
-  className="text-white bg-white/10 hover:bg-white/20 focus:ring-4 focus:outline-none focus:ring-white/30 font-semibold rounded-sm text-sm px-4 py-2 text-center border border-white transition duration-200"
->
-  CONTACT US
-</Link>
+            to="/contact"
+            className="text-white bg-white/10 hover:bg-white/20 focus:ring-4 focus:outline-none focus:ring-white/30 font-semibold rounded-sm text-sm px-4 py-2 text-center border border-white transition duration-200"
+            style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300 }}
+          >
+            CONTACT US
+          </Link>
 
           <button
             data-collapse-toggle="navbar-cta"
@@ -70,38 +67,42 @@ function Navbar() {
           id="navbar-cta"
           ref={menuRef}
         >
-          <ul className={`flex flex-col font-medium p-4 md:p-0 mt-1 ${menuOpen ? 'border rounded-sm border-gray-800 bg-gray-900/50 dark:bg-gray-900 shadow-lg' : ''} md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700`}>
+          <ul className={`flex flex-col font-medium p-4 md:p-0 mt-1 ${menuOpen ? 'border rounded-sm border-gray-800 bg-gray-900/90 dark:bg-gray-900 shadow-lg' : ''} md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700`}>
             <li className={menuOpen ? "hover:bg-white/10 rounded transition-colors" : ""}>
-              <a 
-                href="/" 
+              <Link 
+                to="/" 
                 className="block py-2 px-3 md:p-0 text-white font-normal hover:font-semibold hover:text-white"
+                // style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300 }}
               >
                 HOME
-              </a>
+              </Link>
             </li>
             <li className={menuOpen ? "hover:bg-white/10 rounded transition-colors" : ""}>
-              <a 
-                href="/collection"  
+              <Link
+                to="/collection"  
                 className="block py-2 px-3 md:p-0 text-white font-normal hover:font-semibold hover:text-white"
+                // style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300 }}
               >
                 COLLECTIONS
-              </a>
+              </Link>
             </li>
             <li className={menuOpen ? "hover:bg-white/10 rounded transition-colors" : ""}>
-              <a 
-                href="/services" 
+              <Link 
+                to="/services" 
                 className="block py-2 px-3 md:p-0 text-white font-normal hover:font-semibold hover:text-white"
+                // style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300 }}
               >
                 SERVICES
-              </a>
+              </Link>
             </li>
             <li className={menuOpen ? "hover:bg-white/10 rounded transition-colors" : ""}>
-              <a 
-                href="/about" 
+              <Link
+                to="/about" 
                 className="block py-2 px-3 md:p-0 text-white font-normal hover:font-semibold hover:text-white"
+                // style={{ fontFamily: "'Inter', sans-serif" }}
               >
                 ABOUT
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

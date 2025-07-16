@@ -13,14 +13,14 @@ function ServicesCusto() {
           <div className="space-y-6">
             <div className="flex flex-col items-left">
               <div className="text-left">
-                <p className="inline-block text-lg text-[#9A7842] mb-1">Why Filheim</p>
+                <p className="inline-block text-lg text-[#b0984b] mb-1">Why Filheim</p>
                 <h1 
                   className="text-4xl font-bold mb-2"
-                  style={{ fontFamily: "'Times New Roman', Times, serif" }}
+                  style={{ fontFamily: "'Playfair Display', serif" }}
                 >
                   Design and Customization
                 </h1>
-                <div className="justify-between flex flex-row">
+                <div className="justify-between flex md:flex-row flex-col" style={{ fontFamily: "'Inter', sans-serif" }}>
                   <p className="text-lg max-w-2xl">
                     Custom designs realized through collaborative vision and meticulous craftsmanship.
                   </p>

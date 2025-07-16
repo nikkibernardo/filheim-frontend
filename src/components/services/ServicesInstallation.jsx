@@ -18,11 +18,11 @@ function ServicesInstallation() {
                   <p className="mt-8 mb-2 text-left text-lg text-[#9A7842]">Why you should hire us</p>
                   <h1 
                     className="text-4xl font-bold text-left mb-3"
-                    style={{ fontFamily: "'Times New Roman', Times, serif" }}
+                    style={{ fontFamily: "'Playfair Display', serif" }}
                   >
                     Technical - leveled Cabinet Installation
                   </h1>
-                  <p className="text-lg max-w-2xl mx-auto text-left">
+                  <p className="text-lg max-w-2xl mx-auto text-left" style={{ fontFamily: "'Inter', sans-serif" }}>
                     Precision installation by certified experts, ensuring seamless integration with your architecture and flawless functionality.
                   </p>
                 </div>
@@ -55,8 +55,10 @@ function ServicesInstallation() {
                 </div>
 
                 <div className="relative"> 
-                  <div className="bg-gray-300 p-8 mt-10 grid md:grid-cols-3 
-                              md:absolute md:left-[-50px] md:bottom-[-110px] md:w-[calc(100%+50px)]">
+                  <div 
+                    className="bg-gray-300 p-8 mt-10 grid md:grid-cols-3 md:absolute md:left-[-50px] md:bottom-[-110px] md:w-[calc(100%+50px)]"
+                    style={{ fontFamily: "'Playfair Display', serif" }}
+                  >
                     <p className="font-semibold text-3xl">1 <span>lorem</span></p>
                     <p className="font-semibold text-3xl">2 <span>lorem</span></p>
                     <p className="font-semibold text-3xl">3 <span>lorem</span></p>

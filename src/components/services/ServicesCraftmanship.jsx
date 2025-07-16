@@ -19,20 +19,20 @@ function ServicesCraftmanship() {
 
               <div className="flex flex-col">
                 <div>
-                  <p className="text-lg text-[#9A7842] text-left">How we work</p>
+                  <p className="text-lg text-[#b0984b] text-left">How we work</p>
                   <h1 
                     className="text-4xl font-bold text-left mb-2"
-                    style={{ fontFamily: "'Times New Roman', Times, serif" }}
+                    style={{ fontFamily: "'Playfair Display', serif" }}
                   >
                     Craftmanship and Production
                   </h1>
-                  <p className="text-lg max-w-5xl mx-auto text-left">
+                  <p className="text-lg max-w-5xl mx-auto text-left" style={{ fontFamily: "'Inter', sans-serif" }}>
                     Precision-crafted using time-tested techniques, where traditional woodworking meets modern engineering. Every detail—from joint to finish—is perfected for enduring beauty and strength.
                   </p>
                 </div>
 
 
-                <div className="w-full pt-12 py-2">
+                <div className="w-full pt-12 py-2" >
                   <div className="grid gap-3 md:grid-cols-2 md:gap-6">
                     {/* Card 1 */}
                     <div className="rounded-sm bg-white p-4 text-center shadow-xl">

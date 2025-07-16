@@ -86,19 +86,22 @@ function HomepageProducts() {
           <div className="space-y-6">
             <div className=" items-center">
               <h1 
-                className="text-4xl font-bold text-left"
-                style={{ fontFamily: "'Times New Roman', Times, serif" }}
+                className="text-4xl text-left font-semibold"
+                style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 Featured Products & Projects
               </h1>
-              {/* <div className="flex flex-row md:flex-col justify-between items-center mb-6"> */}
-              <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4 md:gap-0">
+              <div 
+                className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4 md:gap-0" 
+                style={{ fontFamily: "'Inter', sans-serif" }}
+              >
                 <p className="text-lg max-w-2xl">
                     Custom designs realized through collaborative vision and meticulous craftsmanship.
                   </p>
       
                 {/* Filter Buttons */}
-                <div className="flex justify-center flex-wrap gap-3">
+                <div className="flex justify-center flex-wrap gap-3" 
+                >
                   {categories.map((category) => (
                     <button
                       key={category}
