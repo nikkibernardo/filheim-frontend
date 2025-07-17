@@ -18,9 +18,8 @@ function ServicesMaintenance() {
             <div className="flex flex-col items-center">
 
               <div className="grid md:grid-cols-4 gap-4">
-                {/* <div className="max-w-sm text-left text-white"> */}
                 <div className="max-w-sm text-left text-white flex flex-col justify-center pb-0 lg:pb-10">  
-                   <p className="text-lg text-gray-900 text-left">Lorem ipsum</p>
+                  <p className="text-lg text-gray-900 text-left">Lorem ipsum</p>
                   <h1 
                     className="text-4xl font-bold mb-2 relative pb-5"
                     style={{ fontFamily: "'Playfair Display', serif" }}
@@ -28,19 +27,12 @@ function ServicesMaintenance() {
                     Aftercare and Maintenance
                     <span className="absolute bottom-0 left-0 w-1/2 h-px bg-gray-900"></span>
                   </h1>
-                  {/* <p className="text-lg max-w-2xl mx-auto mb-4">
-                    Preserve your cabinetry with simple care: dust regularly, use mild cleaners, and avoid abrasives. We offer free adjustments for 5 years to keep everything functioning perfectly.
-                  </p> */}
-                  {/* <button className="flex flex-row gap-2 items-center bg-gray-900/90 text-white uppercase text-sm p-2 px-4 font-regular hover:bg-gray-900 transition-colors duration-200 hover:font-medium">
-                    Read More
-                    <IoArrowForward />
-                  </button> */}
                 </div>
 
                 {/* Card 1 */}
-                <div className="max-w-sm bg-white border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <div className="max-w-sm bg-white border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700 transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg cursor-pointer">
                   <a href="#">
-                      <img src={Img} alt="Card 1 Img" />
+                      <img src={Img} alt="Card 1 Img" className="hover:opacity-90 transition-opacity duration-300" />
                   </a>
                   <div className="p-5 text-left">
                     <a href="#">
@@ -55,9 +47,9 @@ function ServicesMaintenance() {
                 </div>
 
                 {/* Card 2 */}
-                <div className="max-w-sm bg-white border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <div className="max-w-sm bg-white border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700 transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg cursor-pointer">
                   <a href="#">
-                      <img src={Img} alt="Card 1 Img" />
+                      <img src={Img} alt="Card 2 Img" className="hover:opacity-90 transition-opacity duration-300" />
                   </a>
                   <div className="p-5 text-left">
                     <a href="#">
@@ -72,9 +64,9 @@ function ServicesMaintenance() {
                 </div>
 
                 {/* Card 3 */}
-                <div className="max-w-sm bg-white border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <div className="max-w-sm bg-white border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700 transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg cursor-pointer">
                   <a href="#">
-                      <img src={Img} alt="Card 1 Img" />
+                      <img src={Img} alt="Card 3 Img" className="hover:opacity-90 transition-opacity duration-300" />
                   </a>
                   <div className="p-5 text-left">
                     <a href="#">
@@ -87,9 +79,8 @@ function ServicesMaintenance() {
                     </p>  
                   </div>
                 </div>
+
               </div>
-
-
 
             </div>
           </div>
