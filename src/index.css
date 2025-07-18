@@ -3,50 +3,50 @@
 @tailwind utilities;
 
 /* --bg-color: #0f172a;
-     --acc-color: #334155;
-     --txt-color: #64748b;
-     --heading: #cbd5e1; */
+  --acc-color: #334155;
+  --txt-color: #64748b;
+  --heading: #cbd5e1; */
 
 
-     small {
-        left: calc(50% - 50px);
-     }
+  small {
+    left: calc(50% - 50px);
+  }
 
-      .swiper-slide {
-          transition: all 0.3s ease;
-        }
-        .swiper-slide-active {
-          transform: scale(1.1);
-          height: 500px !important;
-          margin-top: 0 !important;
-          z-index: 10;
-        }
-        .swiper-slide:not(.swiper-slide-active) {
-          opacity: 0.8;
-          transform: scale(0.9);
-        }
-        .custom-pagination {
-          bottom: 30px !important; /* Moved pagination further down */
-        }
-        .swiper-pagination-bullet {
-          background: #000000 !important;
-          opacity: 1 !important;
-          width: 10px;
-          height: 10px;
-        }
-        .swiper-pagination-bullet-active {
-          opacity: 1 !important;
-          transform: scale(1.2) !important;
-         }
+  .swiper-slide {
+    transition: all 0.3s ease;
+  }
+  .swiper-slide-active {
+    transform: scale(1.1);
+    height: 500px !important;
+    margin-top: 0 !important;
+    z-index: 10;
+  }
+  .swiper-slide:not(.swiper-slide-active) {
+    opacity: 0.8;
+    transform: scale(0.9);
+  }
+  .custom-pagination {
+    bottom: 30px !important; /* Moved pagination further down */
+  }
+  .swiper-pagination-bullet {
+    background: #000000 !important;
+    opacity: 1 !important;
+    width: 10px;
+    height: 10px;
+  }
+  .swiper-pagination-bullet-active {
+    opacity: 1 !important;
+    transform: scale(1.2) !important;
+  }
 
-         @font-face {
-          font-family: 'Gotham Bold';
-          src: url('/fonts/Gotham-Bold.woff2') format('woff2'),
-              url('/fonts/Gotham-Bold.woff') format('woff');
-          font-weight: 700;
-          font-style: normal;
-          font-display: swap;
-        }
+  @font-face {
+    font-family: 'Gotham Bold';
+    src: url('/fonts/Gotham-Bold.woff2') format('woff2'),
+      url('/fonts/Gotham-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
         
    /*@font-face {
     font-family: 'Proxima Nova';
@@ -72,4 +72,8 @@
     font-weight: 400;
     font-style: normal;
     font-display: swap;
+  }
+
+  @supports (-webkit-touch-callout: none) {
+    /* Safari-specific styles */
   }

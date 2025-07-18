@@ -72,7 +72,6 @@ function Navbar() {
               <Link 
                 to="/" 
                 className="block py-2 px-3 md:p-0 text-white font-normal hover:font-semibold hover:text-white"
-                // style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300 }}
               >
                 HOME
               </Link>
@@ -81,7 +80,6 @@ function Navbar() {
               <Link
                 to="/collection"  
                 className="block py-2 px-3 md:p-0 text-white font-normal hover:font-semibold hover:text-white"
-                // style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300 }}
               >
                 COLLECTIONS
               </Link>
@@ -90,7 +88,6 @@ function Navbar() {
               <Link 
                 to="/services" 
                 className="block py-2 px-3 md:p-0 text-white font-normal hover:font-semibold hover:text-white"
-                // style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300 }}
               >
                 SERVICES
               </Link>
@@ -99,7 +96,6 @@ function Navbar() {
               <Link
                 to="/about" 
                 className="block py-2 px-3 md:p-0 text-white font-normal hover:font-semibold hover:text-white"
-                // style={{ fontFamily: "'Inter', sans-serif" }}
               >
                 ABOUT
               </Link>
